@@ -15,7 +15,6 @@ function checkOverlap() {
     document.querySelector("#video1").style.opacity= 0;
     document.querySelector("i").style.opacity= 0;
     document.querySelector(".on-cir").style.backgroundColor= "#fff";
-    console.log('Divs are overlapping!');
     }
     else{
         document.querySelector("#video1").style.opacity= 1;
